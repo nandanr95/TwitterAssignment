@@ -1,0 +1,259 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /*height: 100vh;
+    width: 100vw;*/
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+hr{
+    border: rgb(113,118,122) solid 0.5px;
+}
+.nav{
+    background-color: black;
+    width: 10%;
+    border: rgb(113,118,122) solid 0.5px;
+    
+}
+.navbuttons{
+    display: grid;
+    margin-left: 25%;
+}
+.navbuttons i{
+    font-size: 40px;
+}
+
+.navbuttons a{
+    background-color: black;
+    border: none;
+    margin-top: 20px;
+    width: 40px;
+}
+.navbuttons a :hover{
+    background-color: rgb(65, 67, 70);
+    cursor: pointer;
+    border-radius: 30px;
+}
+#navimg{
+    width: 100%;   
+}
+.content{
+    background-color: black;
+    height: 100%;
+    width: 60%;
+    border: rgb(113,118,122) solid 0.5px;
+}
+.contheader{
+    background-color: rgba(0, 0, 0, 0.929);
+    border: rgb(113,118,122) solid 0.5px;
+    position: sticky;
+    top: 0px;
+}
+.head a{
+    text-decoration: none;
+    color: white;
+}
+.head2 a>h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.head2 a{
+    text-decoration: none;
+    color: white;
+}
+.head a>h1{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.head2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#foryou{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+}
+#foryou:hover{
+    background-color: rgba(65, 64, 64, 0.338);
+    cursor: pointer;
+}
+
+#following{
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20%;
+}
+#following:hover{
+    background-color: rgba(65, 64, 64, 0.338);
+    cursor: pointer;
+
+}
+.post{
+    margin: 20px;
+}
+.posthead img{
+    width: 50px;
+    border-radius: 50px;
+}
+.posthead input{
+    margin-left: 20px;
+    transform: translateY(-20px);
+    background-color: black;
+    border: none;
+    width: 500px;
+    height: 50px;
+    color: white;
+}
+.posthead input::placeholder{
+    color: grey;
+    font-size: 20px;
+}
+.postfoot{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.posticons{
+    margin-left: 80px;
+}
+.posticons a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+.posticons a :hover{
+    background-color: rgba(98, 171, 220, 0.362);
+    border-radius: 20px;
+}
+.posticons i{
+    color: rgb(24,126,194);
+    font-size: 20px;
+}
+
+.postbutton button{
+    background-color: rgb(24,126,194);
+    width: 80px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.postbutton button:hover{
+    cursor: pointer;
+}
+.feed{
+    padding: 0px 20px;
+    border: rgb(113,118,122) solid 0.5px;
+}
+.dp img{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+.mainfeed{
+    margin-left: 10px;
+}
+.firstfeed{
+    display: flex;
+    margin-top: 20px;
+}
+.feedhead{
+    display: flex;
+}
+.feedhead h2{
+    margin: 0px;
+    font-size: 15px;
+}
+.feedhead span{
+    font-size: 13px;
+    margin-left: 15px;
+    color: rgb(113,118,122);
+}
+.feedbody img{
+    width: 100%;
+    border-radius: 10px;
+    border: solid 1px rgb(113,118,122);
+}
+.feedfoot{
+    display: flex;
+    justify-content: space-between;
+    color: rgb(113,118,122);
+    margin: 10px 0px;
+}
+.footericon :hover{
+    color: rgb(24,126,194);
+    cursor: pointer;
+    background-color: rgba(24, 126, 194, 0.21);
+}
+.content2{
+    background-color: black;
+    width: 30%;
+    padding: 5px 30px 0px 20px;
+}
+.searchbar input{
+    width: 87%;
+    height: 40px;
+    background-color: rgb(33,35,39);
+    border: none;
+    border-radius: 30px;
+    padding-left: 40px;
+    color: white;
+}
+.searchbar i{
+    color: rgb(113,118,122);
+    font-size: 20px;
+    margin-left: 10px;
+    transform: translateY(-29px);
+}
+.premium{
+    padding: 2px 15px 15px 15px;
+    background-color: rgb(33,35,39);
+    border-radius: 10px;
+}
+.premium p{
+    font-weight: 550;
+}
+.premium button{
+    background-color: rgb(24,126,194);
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    font-size: 15px;
+    border-radius: 20px;
+}
+.premium button:hover{
+    cursor: pointer;
+}
+.happening{
+    margin-top: 20px;
+    padding: 2px 15px 15px 15px;
+    background-color: rgb(33,35,39);
+    border-radius: 10px;
+}
+.trend span{
+    font-size: 13px;
+    color: rgb(113,118,122);
+}
+.trend h5{
+    margin: 0px;
+}
+.trendimg img{
+    height: 60px;
+}
+.trendings{
+    display: flex;
+    justify-content: space-between;
+}
+
+
